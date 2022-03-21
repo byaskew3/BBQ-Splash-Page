@@ -1,3 +1,124 @@
-h1 {
-    color: red;
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.bbq-section {
+    /* border: 4px solid red; */
+    background-image: url(./images/dark-ribs.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.form-section {
+    /* border: 4px solid green; */
+    margin: 1em 0;
+}
+
+/* ---------------- Typography ------------------------- */
+
+.main-text, 
+.head-text, 
+.footer-text {
+    text-align: center;
+}
+
+.head-text,
+.footer-text,
+.form-subtext {
+    color: #f18119;
+    line-height: 2.5;
+    text-transform: uppercase;
+}
+
+.head-text {
+    align-self: center;
+    border-top: 5px solid #f18119;
+    font-weight: 900;
+    font-size: .625rem;
+    letter-spacing: 1.6px;   
+}
+
+.main-text {
+    font-size: 36px;
+    font-weight: 300;
+    padding: 0 1em;
+}
+
+.bold-text {
+    font-weight: 900;
+}
+
+/* ----------- Form Section --------------- */
+
+.form-head-text,
+input {
+    color: #5a5a5a;
+}
+
+.form-head-text,
+.form-subtext {
+    margin: 0;
+    text-align: center;
+}
+
+.form-head-text {
+    font-size: 21px;
+}
+
+.form-subtext {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.form-main-text {
+    color: #5a5a5a;
+    font-weight: 300;
+    margin: 1em auto;
+    width: 90%;
+    text-align: center;
+}
+
+.input-section {
+   align-items: center;
+   margin: 0 auto;
+}
+
+input,
+.register-btn {
+    min-width: 200px;
+    text-align: center;
+    padding: .4em .6em;
+    margin-bottom: .5em;
+    border-radius: 5px;
+    border: 1px solid #8f8f8f;
+}
+
+.register-btn {
+    color: #fff;
+    padding: 1em 3em;
+    background: rgb(255,165,29);
+    background: linear-gradient(90deg, rgba(255,165,29,1) 0%, rgba(241,129,25,1) 100%); 
+    border: none;
+    text-transform: uppercase;
+    font-size: 0.625rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.privacy-text {
+    color: #8f8f8f;
+    font-size: 0.625rem;
+    text-align: center;
 }
